@@ -1,0 +1,58 @@
+<nav class="navbar navbar-expand-lg">
+  <div class="container-fluid">
+    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48">
+      <g fill="none" fill-rule="evenodd">
+        <circle cx="24" cy="24" r="24" fill="#FFF" />
+        <path
+          fill="#0B0D17"
+          d="M24 0c0 16-8 24-24 24 15.718.114 23.718 8.114 24 24 0-16 8-24 24-24-16 0-24-8-24-24z"
+        />
+      </g>
+    </svg>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarNav"
+      aria-controls="navbarNav"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a
+            class="nav-link active"
+            routerLink="home"
+            routerLinkActive="active-link"
+            [routerLinkActiveOptions]="{ exact: true }"
+            >HOME</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link"
+            routerLink="destination"
+            routerLinkActive="active-link"
+            >DESTINATION</a
+          >
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="crew" routerLinkActive="active-link"
+            >CREW</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link"
+            routerLink="technology"
+            routerLinkActive="active-link"
+            >TECHNOLOGY</a
+          >
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>

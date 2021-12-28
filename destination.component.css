@@ -1,0 +1,12 @@
+.list {
+  padding-top: 50px;
+  color: aliceblue;
+}
+.nav-link {
+  color: brown;
+}
+.nav-link active :active {
+  color: blueviolet;
+  text-decoration: underline;
+  font-weight: bold;
+}

@@ -1,0 +1,18 @@
+.navbar-light .navbar-nav .nav-link {
+  color: var(--secondary-color);
+}
+
+.navbar {
+  background-color: midnightblue;
+}
+.nav-link-active {
+  color: red;
+  text-decoration: underline;
+  font-weight: bold;
+}
+.navbar {
+  color: white;
+}
+.nav-link:hover {
+  color: tomato;
+}
